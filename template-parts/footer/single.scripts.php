@@ -1,0 +1,16 @@
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.1.1.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/flickity.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/easypiechart.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/parallax.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/typed.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/datepicker.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/isotope.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/ytplayer.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/lightbox.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/granim.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery.steps.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/countdown.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/twitterfetcher.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/spectragram.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/smooth-scroll.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/scripts.js"></script>

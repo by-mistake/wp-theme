@@ -1,0 +1,137 @@
+/*! Place your custom styles here */
+/*TOP IMAGE*/
+[data-gradient-bg] > canvas + .background-image-holder {
+  opacity: .8 !important;
+}
+
+.motto>strong{
+    color:#FF992d;
+    font-style: italic;
+}
+
+/*SERVICES*/
+.tabs li {
+   padding: 4px 4px 4px 4px;
+}
+@media (max-width: 767px) {
+  .tabs li {
+    display: inline-block;
+  }
+  .inline-menu li {
+    display: inline-block;
+    margin-right: 1.23809524em;
+  }
+  .tabs li:not(:last-child) {
+    border-bottom: 0px; 
+    border-right: 1px solid #ECECEC;
+  }
+  .tabs-services{
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 767px) {
+  .inline-menu {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+  }
+  .inline-menu > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+@media all and (max-width: 990px) {
+  button {
+    margin-top: 0;
+  }
+}
+
+/*BUTTONS*/
+.bg--primary-1 {
+  /*background: #4bd826;*/
+  /*background: #1e8f00;*/
+  background: #9db436;
+}
+.bg--primary {
+  
+  background: #FF992d;
+}
+.bg--success {
+  background: #21809f;
+}
+.bg--primary button.btn.btn--primary-1 {
+  border-color: #004055;
+}
+.btn--primary-1:hover {
+  background: #01506A;
+}
+.btn--primary-1,
+.btn--primary-1:visited {
+  background: #004055;
+  border-color: #004055;
+}
+
+/*MENU*/
+section.menu{
+  padding-top: 0.7em;
+  padding-bottom: 7.42857143em;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.inline-menu{
+  border-bottom: 1px solid #ECECEC;
+  display: inline-block !important;
+}
+.menu-item a{
+  color:#4BD826;
+  font-size: 1.3em;
+}
+.inline-menu > li:not(:hover) > a,
+.inline-menu > li:not(:hover) > span,
+.inline-menu > li:not(:hover) > .modal-instance > .modal-trigger {
+   opacity: 1;
+}
+.inline-menu > li > a,
+.inline-menu > li > span,
+.inline-menu > li > .modal-instance > .modal-trigger {
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  color: #4BD826;
+  font-weight: 600;
+}
+.inline-menu > li > a:hover,
+.inline-menu > li > span:hover,
+.inline-menu > li > .modal-instance > .modal-trigger:hover {
+  color: #4BD826;
+}
+
+/*TABS*/
+.tabs li.active .tab__title {
+  color: #FF8300;
+}
+.tabs li.active .tab__title span {
+  color: #FF8300;
+}
+
+/*LABELS*/
+.label:not([class*='bg--']) {
+  background: #2282A3;
+}
+.screen-reader-text{
+  display: none;
+}
+/*POSTS NAVIGATION*/
+.navigation{
+  text-align:center;
+}
+.nav-next{
+  display: inline-block;
+  padding-left: 0.5em;
+}
+.nav-previous{
+  display: inline-block;
+  padding-right: 0.5em;
+}

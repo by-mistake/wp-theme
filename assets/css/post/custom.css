@@ -1,0 +1,24 @@
+.comment-reply-title{
+    margin-bottom: 0px;
+}
+.comment-form{
+    margin-top: 0px;   
+}
+.article__body>ul{
+    list-style-type:disc;
+    margin-left: 3em;
+}
+.article__body>ul>li>ul{
+    list-style-type:circle;
+    margin-left: 3em;
+    font-size: 0.8em;
+}
+strong{
+    color:#4bd826;
+}
+.txt-orange{
+    color:#ff992d;
+}
+.txt-green{
+    color:#4bd826;
+}
