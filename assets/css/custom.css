@@ -135,3 +135,9 @@ section.menu{
   display: inline-block;
   padding-right: 0.5em;
 }
+.bar .logo {
+  max-height: 6em;
+}
+.logo_by-mistake{
+  margin-top: -14px;
+}

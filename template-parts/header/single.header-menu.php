@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-xs-3 col-sm-2">
                     <a href="http://by-mistake.com">
-                        <img class="logo logo-dark" alt="logo" src="//res.cloudinary.com/by-mistake-com/image/upload/v1452343689/logo.by-mistake.v3.1_210x210_rfop8f.png" />
+                        <img class="logo logo-dark" alt="by-mistake" src="//res.cloudinary.com/by-mistake-com/image/upload/v1514731596/logo-electric_b77shq.png" />
                     </a>
                 </div>
                 <div class="col-xs-9 col-sm-10 text-right">
@@ -21,10 +21,10 @@
     <nav id="menu1" class="bar bar--sm bar-1 hidden-xs ">
         <div class="container">
             <div class="row">
-                <div class="col-md-1 col-sm-2 hidden-xs">
+                <div class="col-md-1 col-sm-2 hidden-xs logo_by-mistake">
                     <div class="bar__module">
                         <a href="http://by-mistake.com">
-                            <img class="logo logo-dark" alt="logo" src="//res.cloudinary.com/by-mistake-com/image/upload/v1452343689/logo.by-mistake.v3.1_210x210_rfop8f.png" />
+                            <img class="logo logo-dark" alt="by-mistake" src="//res.cloudinary.com/by-mistake-com/image/upload/v1514731732/electric_text_mp8rbs.png" />
                         </a>
                     </div>
                     <!--end module-->
