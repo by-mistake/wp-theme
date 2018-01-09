@@ -44,30 +44,7 @@
                 <div class="container menu-container">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="bar__module">
-                                <ul class="menu-horizontal text-center inline-menu">
-                                    <li class="menu-item">
-                                        <a href="http://blog.by-mistake.com">
-                                            Blog
-                                        </a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="services.html">
-                                            Services
-                                        </a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="http://shop.by-mistake.com">
-                                            Shop
-                                        </a>
-                                    </li>
-                                    <li class="menu-item">
-                                        <a href="projects.html">
-                                            Projects
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                            <?php get_template_part( 'template-parts/menu/home.header-menu' ); ?>
                             <!--end module-->
                         </div>
                     </div>
@@ -195,7 +172,7 @@
             </section> <!-- instagram -->
             
             <?php get_template_part( 'template-parts/contact/front-contact' ); ?>
-            
+            <?php get_footer();?>
         </div>
         <a class="back-to-top inner-link" href="#start" data-scroll-class="100vh:active">
             <i class="stack-interface stack-up-open-big"></i>
